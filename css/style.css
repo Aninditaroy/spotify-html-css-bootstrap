@@ -15,19 +15,19 @@
 }
 .body-1{
     background-color: #CFF56A;
-    /* padding-bottom: 120px; */
+    
 }
 .body-2{
     background-color: #FFD2D7;
-    /* padding-bottom: 120px; */
+   
 }
 .body-3{
     background-color: #FFC862;
-    /* padding-bottom: 120px; */
+
 }
 .body-4{
     background-color: #A5BBD1;
-    /* padding-bottom: 120px; */
+  
 }
 .card-body li{
     list-style: none;
@@ -48,8 +48,12 @@
     text-align: center;
     
     border-radius: 10px; 
-    box-shadow: 2px 2px 2px 2px rgb(255 255 255) ;
-
-    
+    box-shadow: 2px 2px 2px 2px rgb(255 255 255) ;   
+}
+@media only screen and (max-width:488px) {
+    .d-flex {
+        
+        flex-direction: column;
+    }
 }
 
